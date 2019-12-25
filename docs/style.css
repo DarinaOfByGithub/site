@@ -1,0 +1,59 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	min-height: 100%;
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-size: 1.6rem;
+	font-family: Helvetica, Tahoma, Arial;
+	position: relative;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 15px;
+	max-width: 600px;
+}
+
+.full-article p {
+	margin: 0 0 1em;
+	line-height: 1.3;
+}
+
+.full-article h2 {
+	font-size: 2rem;
+}
+
+.o-hidden { overflow: hidden; }
+
+.hidden { display: none !important; }
+
+.stroke { text-decoration: line-through; }
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 100px;
+	background-color: #fff;
+}
+
+.modal__content {
+	margin: auto;
+	font-size: 5rem;
+}
